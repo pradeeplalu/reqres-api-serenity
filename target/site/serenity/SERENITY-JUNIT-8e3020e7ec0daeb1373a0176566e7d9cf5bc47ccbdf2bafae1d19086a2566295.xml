@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="in.reqres.Userinfo.UsersCRUDTest" skipped="0" tests="1" time="0.3" timestamp="2022-06-07T23:09:29.561+01:00[Europe/London]"><testcase classname="in.reqres.Userinfo.UsersCRUDTest" name="This will create a user"><error message="baseURI cannot be null" type="java.lang.IllegalArgumentException">baseURI cannot be null</error><system-err>baseURI cannot be null&#13;
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)&#13;
+io.restassured.internal.RequestSpecificationImpl.&lt;init&gt;(RequestSpecificationImpl.groovy:132)&#13;
+io.restassured.RestAssured.createTestSpecification(RestAssured.java:1492)&#13;
+io.restassured.RestAssured.given(RestAssured.java:711)&#13;
+net.serenitybdd.rest.SerenityRest.given(SerenityRest.java:211)&#13;
+in.reqres.steps.UserSteps.createUser(UserSteps.java:19)&#13;
+in.reqres.Userinfo.UsersCRUDTest.test001(UsersCRUDTest.java:34)&#13;
+</system-err></testcase></testsuite>
